@@ -147,12 +147,12 @@ with col5:
  url = "https://dataagent-me6lrsfki8patgez9kpskj.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
  
- st.subheader("Reconocimiento Óptico de Caracteres")
- image = Image.open('REC_OCR.jpg')
+ st.subheader("Convoluciones Visualizadas.")
+ image = Image.open('Convulciones.jpg')
  st.image(image, width=190)
- st.write("Identifica la información en una imagen o de Video, la selecciona y la almacena en Texto  .") 
- url = "https://ocr-audiolc.streamlit.app/"
- st.write(f"OCR: [Enlace]({url})")
+ st.write("La convolución es una operación matemática que combina dos señales y genera una tercera señal.") 
+ url = "https://https://convoluciones-lc.streamlit.app/"
+ st.write(f"Convoluciones: [Enlace]({url})")
 
  st.subheader("Pagina WEB Clasica")
  image = Image.open('Pag_Class.jpg')
