@@ -76,7 +76,7 @@ with col2:
  st.subheader("Análisis de Imágenes")
  image = Image.open('Clasificar.jpg')
  st.image(image, width=200)
- st.write("Es una aplicación que permite clasificar imagenes.") 
+ st.write("                                Es una aplicación que permite clasificar imagenes.") 
  url = "https://multimodalgptlc.streamlit.app/"
  st.write(f"Imagenes: [Enlace]({url})")
 
