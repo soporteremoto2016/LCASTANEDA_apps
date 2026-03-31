@@ -87,12 +87,12 @@ with col2:
  url = "https://traductor--textlc.streamlit.app/"
  st.write(f"Traductor: [Enlace]({url})")
 
- st.subheader("Convertir Texto a Audio")
- image = Image.open('Texto_Audio.jpg')
+ st.subheader("Chat Conversacional")
+ image = Image.open('Chat.jpg')
  st.image(image, width=200)
- st.write("Permite realizar conversión de un Texto a  audio.") 
- url = "https://speedtexttlc.streamlit.app/"
- st.write(f"Convertir Audio: [Enlace]({url})")
+ st.write("Permite tener una conversación con el chatbot sobre un tema en especifico.") 
+ url = "https://chatbotopenailc.streamlit.app/"
+ st.write(f"Chat: [Enlace]({url})")
 
 
 with col3: 
