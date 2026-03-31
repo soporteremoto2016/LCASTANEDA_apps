@@ -114,6 +114,16 @@ with col3:
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+
+
+ with col4: 
+ st.subheader("Clasificador de Flores")
+ image = Image.open('Clasificar_flores.jpg')
+ st.image(image, width=190)
+ st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+ url = "https://chatpdf-cc.streamlit.app/"
+ st.write(f"RAG: [Enlace]({url})")
+
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
