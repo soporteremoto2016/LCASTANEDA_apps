@@ -37,8 +37,10 @@ with st.sidebar:
         "para permitir la facilidad y ejecución de procesos."
     )
 
-    st.subheader("Luis Castañeda")
+    
     st.write(parrafo)
+
+st.writer("Luis Castañeda")
 
 # Contenido principal (esto se mantendrá con los colores por defecto)
 st.title("Apliaciones IA ")
