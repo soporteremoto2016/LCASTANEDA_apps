@@ -4,12 +4,12 @@ from PIL import Image
 st.markdown(
     """
     <style>
-    /* 1. Fondo negro para la barra lateral */
+    /* 1. Fondo azul para la barra lateral */
     section[data-testid="stSidebar"] {
         background-color: blue !important;
     }
 
-    /* 2. Color azul para todos los textos dentro de la barra lateral */
+    /* 2. Color blanco0 para todos los textos dentro de la barra lateral */
     section[data-testid="stSidebar"] .stText, 
     section[data-testid="stSidebar"] p, 
     section[data-testid="stSidebar"] span, 
@@ -31,6 +31,7 @@ st.markdown(
 # Tu contenido de la sidebar
 
 with st.sidebar:
+    st.writer("Luis Castañeda")    
     st.subheader("Aplicaciones con Inteligencia Artificial.")
     parrafo = (
         "Herramientas desarrolladas para identificar la funcionalidad de la Inteligencia Artificial "
