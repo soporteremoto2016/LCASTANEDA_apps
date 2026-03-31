@@ -132,11 +132,11 @@ with col4:
  url = "https://ocr-audiolc.streamlit.app/"
  st.write(f"OCR: [Enlace]({url})")
 
- st.subheader("Clasificador de Flores")
- image = Image.open('Clasificar_Flores.jpg')
+ st.subheader("Pagina WEB Clasica")
+ image = Image.open('Pag_Class.jpg')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- #st.write(f"RAG: [Enlace]({url})")
+ st.write("Diseño de una Pagina WEB clasica .") 
+ url = "https://introlpagelc.streamlit.app/"
+ st.write(f"Pagina: [Enlace]({url})")
  
  
