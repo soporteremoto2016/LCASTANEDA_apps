@@ -117,21 +117,21 @@ with col3:
 
 with col4: 
  st.subheader("Clasificador de Flores")
- image = Image.open('Clasificar_flores.jpg')
+ image = Image.open('Clasificar_Flores.jpg')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
  #st.write(f"RAG: [Enlace]({url})")
  
  st.subheader("Clasificador de Flores")
- image = Image.open('Clasificar_flores.jpg')
+ image = Image.open('Clasificar_Flores.jpg')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
  #st.write(f"RAG: [Enlace]({url})")
 
  st.subheader("Clasificador de Flores")
- image = Image.open('Clasificar_flores.jpg')
+ image = Image.open('Clasificar_Flores.jpg')
  st.image(image, width=190)
  st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
