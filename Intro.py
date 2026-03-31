@@ -66,7 +66,7 @@ with col1:
  st.write(f"Sentimiento: [Enlace]({url})")
 
  st.subheader("Diseño de Nubes de Palabras")
- image = Image.open('Nubes.jpg')
+ image = Image.open('Nube.jpg')
  st.image(image, width=200)
  st.write("De un conjunto de Texto se analiza cada palabra , se correlaciona y crea Nubes de palabras.") 
  url = "https://wordcloud-nubelc.streamlit.app/"
