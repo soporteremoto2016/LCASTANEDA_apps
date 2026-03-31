@@ -73,7 +73,7 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
- st.subheader("Analisis de Imagenes")
+ st.subheader("Análisis de Imágenes")
  image = Image.open('Clasificar.jpg')
  st.image(image, width=200)
  st.write("Es una aplicación que permite clasificar imagenes.") 
