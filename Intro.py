@@ -29,7 +29,7 @@ st.markdown(
 )
 
 # Tu contenido de la sidebar
-st.writer("Luis Castañeda")    
+
 with st.sidebar:
     st.subheader("Aplicaciones con Inteligencia Artificial.")
     parrafo = (
@@ -37,11 +37,8 @@ with st.sidebar:
         "y dar ideas de como pueden ser aplicadas dentro de las organizaciones "
         "para permitir la facilidad y ejecución de procesos."
     )
-
          
     st.write(parrafo)
-
-
 
 # Contenido principal (esto se mantendrá con los colores por defecto)
 st.title("Apliaciones IA ")
