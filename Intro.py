@@ -139,4 +139,24 @@ with col4:
  url = "https://introlpagelc.streamlit.app/"
  st.write(f"Pagina: [Enlace]({url})")
  
+ with col5: 
+ st.subheader("Clasificador de Flores")
+ image = Image.open('Clasificar_Flores.jpg')
+ st.image(image, width=190)
+ st.write("Permite identificar una foto de una flor y clasificarla en un grupo especifico.") 
+ url = "https://tlflores-lc.streamlit.app/"
+ st.write(f"Flores: [Enlace]({url})")
  
+ st.subheader("Reconocimiento Óptico de Caracteres")
+ image = Image.open('REC_OCR.jpg')
+ st.image(image, width=190)
+ st.write("Identifica la información en una imagen o de Video, la selecciona y la almacena en Texto  .") 
+ url = "https://ocr-audiolc.streamlit.app/"
+ st.write(f"OCR: [Enlace]({url})")
+
+ st.subheader("Pagina WEB Clasica")
+ image = Image.open('Pag_Class.jpg')
+ st.image(image, width=190)
+ st.write("Diseño de una Pagina WEB clasica .") 
+ url = "https://introlpagelc.streamlit.app/"
+ st.write(f"Pagina: [Enlace]({url})"
