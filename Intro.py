@@ -42,7 +42,7 @@ with st.sidebar:
 st.title("Apliaciones IA ")
 
 #url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("Pruebas de Concepto apliacdas a IA")
+st.subheader("Pruebas de Concepto aplicadas a IA")
 #st.write(f"Pruebas de Concepto aplicadas a IA : [Enlace]({url_ia})")
 col1, col2, col3, col4 = st.columns(4)
 
