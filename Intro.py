@@ -1,15 +1,47 @@
 import streamlit as st
 from PIL import Image
-st.title("Listado de Aplicaciones de Inteligencia Artificial.")
+# Configuración de estilo CSS
+st.markdown(
+    """
+    <style>
+    /* Cambiar el fondo de la aplicación principal */
+    .stApp {
+        background-color: #000000;
+    }
 
+    /* Cambiar el color de todos los textos (párrafos, etiquetas, etc.) */
+    .stApp p, .stApp span, .stApp label, .stApp div {
+        color: #0000FF !important;
+    }
+
+    /* Opcional: Cambiar el fondo de la barra lateral (sidebar) */
+    [data-testid="stSidebar"] {
+        background-color: #000000;
+        border-right: 1px solid #0000FF;
+    }
+
+    /* Cambiar el color de los títulos en la sidebar */
+    [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
+        color: #0000FF !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Tu código original dentro de la sidebar
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
-  parrafo = (
-    "Herramientas desarrolladas para identificar la funcionalidad de la Inteligencia Artificial y dar ideas de cómo pueden ser aplicadas, "
-    "dentro de las organizaciones "
-    "para permitir la facilidad y ejecución de procesos."
-  )
-  st.write(parrafo)
+    st.subheader("Aplicaciones con Inteligencia Artificial.")
+    parrafo = (
+        "Herramientas desarrolladas para identificar la funcionalidad de la Inteligencia Artificial "
+        "y dar ideas de como pueden ser aplicadas dentro de las organizaciones "
+        "para permitir la facilidad y ejecución de procesos."
+    )
+    st.write(parrafo)
+
+
+
+ 
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
