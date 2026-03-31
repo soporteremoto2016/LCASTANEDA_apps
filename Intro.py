@@ -159,4 +159,4 @@ with col5:
  st.image(image, width=190)
  st.write("Diseño de una Pagina WEB clasica .") 
  url = "https://introlpagelc.streamlit.app/"
- st.write(f"Pagina: [Enlace]({url})"
+ st.write(f"Pagina: [Enlace]({url})")
