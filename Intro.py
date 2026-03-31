@@ -5,7 +5,7 @@ st.title("Listado de Aplicaciones de Inteligencia Artificial.")
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")
   parrafo = (
-    "Herramientas desarrolladas para identificar la funcionalidad de la La Inteligencia Artificial y dar ideas de como pueden ser aplicadas, "
+    "Herramientas desarrolladas para identificar la funcionalidad de la Inteligencia Artificial y dar ideas de como pueden ser aplicadas, "
     "dentro de las orgaznaiciones "
     "para permitir la facilidad y ejecucón de procesos."
   )
