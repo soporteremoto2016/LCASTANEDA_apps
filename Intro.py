@@ -47,10 +47,10 @@ st.markdown(
 # Sidebar
 with st.sidebar:
     st.subheader("Luis Castañeda")    
-    st.subheader("Aplicaciones con IA")
+    st.subheader("Como aplicar la IA")
     st.write("Herramientas desarrolladas para identificar la funcionalidad de la Inteligencia Artificial...")
 
-st.title("Aplicaciones IA")
+st.title("Aplicabilidad de la IA")
 st.subheader("Pruebas de Concepto aplicadas a IA")
 
 # --- FUNCIÓN PARA RENDERIZAR CADA APP ---
