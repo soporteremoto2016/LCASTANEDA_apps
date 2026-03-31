@@ -123,8 +123,4 @@ with col3:
  st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
-
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
-
-
+ 
