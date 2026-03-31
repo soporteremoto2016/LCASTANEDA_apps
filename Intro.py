@@ -126,7 +126,7 @@ with col4:
  st.subheader("Reconocimiento Óptico de Caracteres")
  image = Image.open('REC_OCR.jpg')
  st.image(image, width=190)
- st.write("Identifica la información en una imagen y la selecciona y la almacena en Texto  .") 
+ st.write("Identifica la información en una imagen o de Video, la selecciona y la almacena en Texto  .") 
  url = "https://ocr-audiolc.streamlit.app/"
  st.write(f"OCR: [Enlace]({url})")
 
