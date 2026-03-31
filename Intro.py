@@ -139,7 +139,7 @@ with col4:
  url = "https://introlpagelc.streamlit.app/"
  st.write(f"Pagina: [Enlace]({url})")
  
- with col5: 
+with col5: 
  st.subheader("Clasificador de Flores")
  image = Image.open('Clasificar_Flores.jpg')
  st.image(image, width=190)
