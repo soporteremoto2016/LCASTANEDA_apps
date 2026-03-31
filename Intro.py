@@ -43,12 +43,6 @@ st.title("Contenido Principal")
 st.write("Esta parte de la aplicación conservará su estilo original.")
 
 
-
-
-
-
- 
-
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
