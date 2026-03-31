@@ -110,10 +110,12 @@ with col3:
  url = "https://speedtexttlc.streamlit.app/"
  st.write(f"Convertir Audio: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
+ st.subheader("Chat Anthropic")
+ image = Image.open('Chat_Ant.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+ st.write("Chat directamente con ML Anthropic.")
+ url = "https://antchgptlc.streamlit.app"
+ st.write(f"Convertir Audio: [Enlace]({url})")
 
 with col4: 
  st.subheader("Clasificador de Flores")
