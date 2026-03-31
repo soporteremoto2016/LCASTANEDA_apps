@@ -119,7 +119,7 @@ with col4:
  st.subheader("Clasificador de Flores")
  image = Image.open('Clasificar_Flores.jpg')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+ st.write("Permite identificar una foto de una flor y clasificarla en un grupo especifico.") 
  url = "https://chatpdf-cc.streamlit.app/"
  #st.write(f"RAG: [Enlace]({url})")
  
