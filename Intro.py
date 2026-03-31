@@ -116,7 +116,7 @@ with col5:
 # Fila 4
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-    render_app("Nubes de Palabras", "Nube.jpg", "Analiza texto y crea nubes de palabras.", "https://wordcloud-nubelc.streamlit.app/", "Nube")
+    render_app("Detector de Numereos Escritos", "Detector_Numeros.jpg", "Analiza el número que se escribe en pizarra y pronostica .", "https://mnistpred-deteccionumeros.streamlit.app/", "Numeros")
 with col2:
     render_app("Chat GPT", "Chat.jpg", "Conversación con chatbot específico.", "https://chatbotopenailc.streamlit.app/", "Chat")
 with col3:
