@@ -51,12 +51,12 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
+ st.subheader("Detección de Objetos")
+ image = Image.open('Analisis_Imagenes.jpg')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write("Sistema que permite identifcar con Video Objetos") 
+ url = "https://yolov5-hpaetkatdrdpj4jkhy8qex.streamlit.app/"
+ st.write(f"Objetos: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
@@ -74,7 +74,7 @@ with col1:
 
 with col2: 
  st.subheader("Analisis de Imagenes")
- image = Image.open('Analisis_Imagenes.jpg')
+ image = Image.open('Clasificar.jpg')
  st.image(image, width=200)
  st.write("Es una aplicación que permite clasificar imagenes.") 
  url = "https://multimodalgptlc.streamlit.app/"
