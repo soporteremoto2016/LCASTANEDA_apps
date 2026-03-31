@@ -87,12 +87,12 @@ with col2:
  url = "https://traductor--textlc.streamlit.app/"
  st.write(f"Tradcutor: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
+ st.subheader("Convertir Texto a Audio")
+ image = Image.open('Texto_Audio.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("Permite realizar conversión de un Texto a  audio.") 
+ url = "https://speedtexttlc.streamlit.app/"
+ st.write(f"Convertir Audio: [Enlace]({url})")
 
 
 with col3: 
