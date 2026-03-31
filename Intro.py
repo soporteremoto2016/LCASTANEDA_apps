@@ -16,7 +16,7 @@ st.markdown(
     section[data-testid="stSidebar"] h1, 
     section[data-testid="stSidebar"] h2, 
     section[data-testid="stSidebar"] h3 {
-        color: #0000FF !important;
+        color: white !important;
     }
 
     /* 3. Opcional: Cambiar el color de los iconos de cerrar/abrir de la sidebar */
