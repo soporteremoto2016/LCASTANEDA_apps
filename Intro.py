@@ -58,12 +58,12 @@ with col1:
  url = "https://yolov5-hpaetkatdrdpj4jkhy8qex.streamlit.app/"
  st.write(f"Objetos: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
+ st.subheader("Análisis de Sentimientos")
+ image = Image.open('Sentimientos.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("Identifica el contexto que se escribe y valida el sentimiento que tiene.") 
+ url = "https://sentimientoslc.streamlit.app"
+ st.write(f"Sentimiento: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
