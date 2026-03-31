@@ -96,11 +96,11 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
+ st.subheader("Sistema de Clasificación de Imágenes Vehículos, Motos y Bicicletas ")
+ image = Image.open('Clasificar_Motos.jpg')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
+ st.write("Sistema que clasifica imagens de Vehiculos, Motos y Bicicletas.") 
+ url = "https:https://tmimglc.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
