@@ -140,12 +140,12 @@ with col4:
  st.write(f"Pagina: [Enlace]({url})")
  
 with col5: 
- st.subheader("Clasificador de Flores")
- image = Image.open('Clasificar_Flores.jpg')
+ st.subheader("Análisis de Datos")
+ image = Image.open('Analisis_Datos.jpg')
  st.image(image, width=190)
- st.write("Permite identificar una foto de una flor y clasificarla en un grupo especifico.") 
- url = "https://tlflores-lc.streamlit.app/"
- st.write(f"Flores: [Enlace]({url})")
+ st.write("Permite hacer analisis de una Dataset.") 
+ url = "ttps://dataagent-me6lrsfki8patgez9kpskj.streamlit.app/"
+ st.write(f"Datos: [Enlace]({url})")
  
  st.subheader("Reconocimiento Óptico de Caracteres")
  image = Image.open('REC_OCR.jpg')
