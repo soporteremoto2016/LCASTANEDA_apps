@@ -83,7 +83,7 @@ with col2:
  st.subheader("Traductor (escucha a voz)")
  image = Image.open('Traductor.jpg')
  st.image(image, width=190)
- st.write("Permite traducir un mensaje escrito en otro idioma .") 
+ st.write("Permite traducir un mensaje en voz a otro idioma ademas de permitir escribirlo en texto .") 
  url = "https://traductor--textlc.streamlit.app/"
  st.write(f"Tradcutor: [Enlace]({url})")
 
