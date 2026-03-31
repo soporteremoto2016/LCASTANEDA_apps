@@ -154,9 +154,9 @@ with col5:
  url = "https://https://convoluciones-lc.streamlit.app/"
  st.write(f"Convoluciones: [Enlace]({url})")
 
- st.subheader("Pagina WEB Clasica")
- image = Image.open('Pag_Class.jpg')
+ st.subheader("Autoencoder interactivo")
+ image = Image.open('Autoencoder.jpg')
  st.image(image, width=190)
- st.write("Diseño de una Pagina WEB clasica .") 
- url = "https://introlpagelc.streamlit.app/"
- st.write(f"Pagina: [Enlace]({url})")
+ st.write("Un autoencoder es un tipo especial de red neuronal que se entrena para copiar su entrada a su salida.") 
+ url = "https://appaev.streamlit.app/"
+ st.write(f"Autoecoder: [Enlace]({url})")
