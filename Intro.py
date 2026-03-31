@@ -41,8 +41,8 @@ with st.sidebar:
 # Contenido principal (esto se mantendrá con los colores por defecto)
 st.title("Apliaciones IA ")
 
-#url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-#st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
+url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
+st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 
 st.write(f"Pruebas de Concepto apliacdas a IA : [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
