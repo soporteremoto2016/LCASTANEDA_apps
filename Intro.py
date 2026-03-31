@@ -29,6 +29,7 @@ st.markdown(
 )
 
 # Tu contenido de la sidebar
+st.writer("Luis Castañeda")    
 with st.sidebar:
     st.subheader("Aplicaciones con Inteligencia Artificial.")
     parrafo = (
@@ -37,7 +38,7 @@ with st.sidebar:
         "para permitir la facilidad y ejecución de procesos."
     )
 
-         st.writer("Luis Castañeda")    
+         
     st.write(parrafo)
 
 
