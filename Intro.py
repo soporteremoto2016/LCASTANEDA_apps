@@ -118,7 +118,7 @@ col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     render_app("Detector de Numereos Escritos", "Detector_Numeros.jpg", "Analiza el número que se escribe en pizarra y pronostica .", "https://mnistpred-deteccionumeros.streamlit.app/", "Numeros")
 with col2:
-    render_app("Chat GPT", "Chat.jpg", "Conversación con chatbot específico.", "https://chatbotopenailc.streamlit.app/", "Chat")
+    render_app("Redes Neuronales Recurrentes", "Redes_Neuronales.jpg", "Agentes de IA e Interfaces Multimodales Generador de Texto LSTM.", "https://lstmnlp-oragfnp8t765eu2bgchvgs.streamlit.app/", "Red_Neuro")
 with col3:
     render_app("Chat Anthropic", "Chat_Ant.jpg", "Chat directamente con ML Anthropic.", "https://antchgptlc.streamlit.app", "Anthropic")
 with col4:
