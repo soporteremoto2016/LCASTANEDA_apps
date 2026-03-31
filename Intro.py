@@ -47,7 +47,7 @@ st.title("Apliaciones IA ")
 #url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("Pruebas de Concepto aplicadas a IA")
 #st.write(f"Pruebas de Concepto aplicadas a IA : [Enlace]({url_ia})")
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4, Col5 = st.columns(5)
 
 with col1:
  
