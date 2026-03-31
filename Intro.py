@@ -37,7 +37,7 @@ with st.sidebar:
         "para permitir la facilidad y ejecución de procesos."
     )
 
-    st.writer("Luis Castañeda")    
+         st.writer("Luis Castañeda")    
     st.write(parrafo)
 
 
