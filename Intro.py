@@ -80,12 +80,12 @@ with col2:
  url = "https://multimodalgptlc.streamlit.app/"
  st.write(f"Imagenes: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
+ st.subheader("Traductor (escucha a voz)")
+ image = Image.open('Traductor.jpg')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("Permite traducir un mensaje escrito en otro idioma .") 
+ url = "https://traductor--textlc.streamlit.app/"
+ st.write(f"Tradcutor: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('OIG3.jpg')
