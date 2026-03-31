@@ -111,3 +111,17 @@ with col4:
     render_app("Web Clásica", "Pag_Class.jpg", "Diseño de una Página WEB clásica.", "https://introlpagelc.streamlit.app/", "Página")
 with col5:
     render_app("Autoencoder", "Autoencoder.jpg", "Red neuronal para copiar entrada a salida.", "https://appaev.streamlit.app/", "Autoencoder")
+
+
+# Fila 4
+col1, col2, col3, col4, col5 = st.columns(5)
+with col1:
+    render_app("Nubes de Palabras", "Nube.jpg", "Analiza texto y crea nubes de palabras.", "https://wordcloud-nubelc.streamlit.app/", "Nube")
+with col2:
+    render_app("Chat GPT", "Chat.jpg", "Conversación con chatbot específico.", "https://chatbotopenailc.streamlit.app/", "Chat")
+with col3:
+    render_app("Chat Anthropic", "Chat_Ant.jpg", "Chat directamente con ML Anthropic.", "https://antchgptlc.streamlit.app", "Anthropic")
+with col4:
+    render_app("Web Clásica", "Pag_Class.jpg", "Diseño de una Página WEB clásica.", "https://introlpagelc.streamlit.app/", "Página")
+with col5:
+    render_app("Autoencoder", "Autoencoder.jpg", "Red neuronal para copiar entrada a salida.", "https://appaev.streamlit.app/", "Autoencoder")
