@@ -120,7 +120,7 @@ with col4:
  image = Image.open('Clasificar_Flores.jpg')
  st.image(image, width=190)
  st.write("Permite identificar una foto de una flor y clasificarla en un grupo especifico.") 
- url = "https://chatpdf-cc.streamlit.app/"
+ url = "https://tlflores-lc.streamlit.app/"
  #st.write(f"RAG: [Enlace]({url})")
  
  st.subheader("Clasificador de Flores")
