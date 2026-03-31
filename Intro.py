@@ -1,35 +1,34 @@
 import streamlit as st
 from PIL import Image
-# Configuración de estilo CSS
+# Aplicar CSS solo a la Sidebar
 st.markdown(
     """
     <style>
-    /* Cambiar el fondo de la aplicación principal */
-    .stApp {
-        background-color: #000000;
+    /* 1. Fondo negro para la barra lateral */
+    section[data-testid="stSidebar"] {
+        background-color: #000000 !important;
     }
 
-    /* Cambiar el color de todos los textos (párrafos, etiquetas, etc.) */
-    .stApp p, .stApp span, .stApp label, .stApp div {
+    /* 2. Color azul para todos los textos dentro de la barra lateral */
+    section[data-testid="stSidebar"] .stText, 
+    section[data-testid="stSidebar"] p, 
+    section[data-testid="stSidebar"] span, 
+    section[data-testid="stSidebar"] h1, 
+    section[data-testid="stSidebar"] h2, 
+    section[data-testid="stSidebar"] h3 {
         color: #0000FF !important;
     }
 
-    /* Opcional: Cambiar el fondo de la barra lateral (sidebar) */
-    [data-testid="stSidebar"] {
-        background-color: #000000;
-        border-right: 1px solid #0000FF;
-    }
-
-    /* Cambiar el color de los títulos en la sidebar */
-    [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
-        color: #0000FF !important;
+    /* 3. Opcional: Cambiar el color de los iconos de cerrar/abrir de la sidebar */
+    section[data-testid="stSidebar"] button svg {
+        fill: #0000FF !important;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
 
-# Tu código original dentro de la sidebar
+# Tu contenido de la sidebar
 with st.sidebar:
     st.subheader("Aplicaciones con Inteligencia Artificial.")
     parrafo = (
@@ -38,6 +37,13 @@ with st.sidebar:
         "para permitir la facilidad y ejecución de procesos."
     )
     st.write(parrafo)
+
+# Contenido principal (esto se mantendrá con los colores por defecto)
+st.title("Contenido Principal")
+st.write("Esta parte de la aplicación conservará su estilo original.")
+
+
+
 
 
 
