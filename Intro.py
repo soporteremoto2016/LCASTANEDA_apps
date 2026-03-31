@@ -144,7 +144,7 @@ with col5:
  image = Image.open('Analisis_Datos.jpg')
  st.image(image, width=190)
  st.write("Permite hacer analisis de una Dataset.") 
- url = "ttps://dataagent-me6lrsfki8patgez9kpskj.streamlit.app/"
+ url = "https://dataagent-me6lrsfki8patgez9kpskj.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
  
  st.subheader("Reconocimiento Óptico de Caracteres")
