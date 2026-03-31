@@ -96,7 +96,7 @@ with col2:
 
 
 with col3: 
- st.subheader("Sistema de Clasificación de Imágenes Vehículos, Motos y Bicicletas ")
+ st.subheader("Clasificar Vehículos, Motos y Bicicletas ")
  image = Image.open('Clasificar_Motos.jpg')
  st.image(image, width=190)
  st.write("Sistema que clasifica imagens de Vehiculos, Motos y Bicicletas.") 
