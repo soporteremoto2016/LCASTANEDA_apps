@@ -6,7 +6,7 @@ st.markdown(
     <style>
     /* 1. Fondo negro para la barra lateral */
     section[data-testid="stSidebar"] {
-        background-color: grey!important;
+        background-color: blue !important;
     }
 
     /* 2. Color azul para todos los textos dentro de la barra lateral */
