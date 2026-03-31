@@ -148,7 +148,7 @@ with col5:
  st.write(f"Datos: [Enlace]({url})")
  
  st.subheader("Convoluciones Visualizadas.")
- image = Image.open('Convulciones.jpg')
+ image = Image.open('CConvulsiones.jpg')
  st.image(image, width=190)
  st.write("La convolución es una operación matemática que combina dos señales y genera una tercera señal.") 
  url = "https://https://convoluciones-lc.streamlit.app/"
