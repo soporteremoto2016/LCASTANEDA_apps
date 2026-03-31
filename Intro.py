@@ -103,7 +103,7 @@ with col3:
  url = "https:https://tmimglc.streamlit.app/"
  st.write(f"Movimiento: [Enlace]({url})")
 
-st.subheader("Convertir Texto a Audio")
+ st.subheader("Convertir Texto a Audio")
  image = Image.open('Texto_Audio.jpg')
  st.image(image, width=200)
  st.write("Permite realizar conversión de un Texto a  audio.") 
