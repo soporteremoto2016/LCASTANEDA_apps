@@ -85,7 +85,7 @@ with col2:
  st.image(image, width=190)
  st.write("Permite traducir un mensaje en voz a otro idioma ademas de permitir escribirlo en texto .") 
  url = "https://traductor--textlc.streamlit.app/"
- st.write(f"Tradcutor: [Enlace]({url})")
+ st.write(f"Traductor: [Enlace]({url})")
 
  st.subheader("Convertir Texto a Audio")
  image = Image.open('Texto_Audio.jpg')
@@ -128,7 +128,7 @@ with col4:
  st.image(image, width=190)
  st.write("Identifica la información en una imagen y la selecciona y la almacena en Texto  .") 
  url = "https://ocr-audiolc.streamlit.app/"
- #st.write(f"OCR: [Enlace]({url})")
+ st.write(f"OCR: [Enlace]({url})")
 
  st.subheader("Clasificador de Flores")
  image = Image.open('Clasificar_Flores.jpg')
