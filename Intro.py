@@ -103,12 +103,12 @@ with col3:
  url = "https:https://tmimglc.streamlit.app/"
  st.write(f"Movimiento: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
+st.subheader("Convertir Texto a Audio")
+ image = Image.open('Texto_Audio.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("Permite realizar conversión de un Texto a  audio.") 
+ url = "https://speedtexttlc.streamlit.app/"
+ st.write(f"Convertir Audio: [Enlace]({url})")
  
  st.subheader("Sistema Ciberfísico")
  image = Image.open('OIG6.jpg')
