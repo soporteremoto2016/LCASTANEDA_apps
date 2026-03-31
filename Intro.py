@@ -36,6 +36,8 @@ with st.sidebar:
         "y dar ideas de como pueden ser aplicadas dentro de las organizaciones "
         "para permitir la facilidad y ejecución de procesos."
     )
+
+    st.subheader("Luis Castañeda")
     st.write(parrafo)
 
 # Contenido principal (esto se mantendrá con los colores por defecto)
