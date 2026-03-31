@@ -65,12 +65,12 @@ with col1:
  url = "https://sentimientoslc.streamlit.app"
  st.write(f"Sentimiento: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
+ st.subheader("Diseño de Nubes de Palabras")
+ image = Image.open('Nubes.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("De un conjunto de Texto se analiza cada palabra , se correlaciona y crea Nubes de palabras.") 
+ url = "https://wordcloud-nubelc.streamlit.app/"
+ st.write(f"Nube: [Enlace]({url})")
 
 with col2: 
  st.subheader("Análisis de Imágenes")
