@@ -122,6 +122,6 @@ with col2:
 with col3:
     render_app("Detector Iteractiva Por Rangos de Edad", "Identificar_Edades.jpg", "Al seleccionar una Edad, el sistema puede activar un proceso.", "https://introlpagelc.streamlit.app/", "Edad")
 with col4:
-    render_app("Web Clásica", "Pag_Class.jpg", "Diseño de una Página WEB clásica.", "https://introlpagelc.streamlit.app/", "Página")
+    render_app("Energy Data Analysis Dashboard", "Dashboard.jpg", "El Dasboard hace un analisis de un dataset de energia.", "https://predicion-ajustado.streamlit.app/", "Datos")
 with col5:
     render_app("Autoencoder", "Autoencoder.jpg", "Red neuronal para copiar entrada a salida.", "https://appaev.streamlit.app/", "Autoencoder")
