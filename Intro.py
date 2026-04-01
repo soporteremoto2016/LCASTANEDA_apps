@@ -120,7 +120,7 @@ with col1:
 with col2:
     render_app("Redes Neuronales Recurrentes", "Redes_Neronales.jpg", "Agentes de IA e Interfaces Multimodales Generador de Texto LSTM.", "https://lstmnlp-oragfnp8t765eu2bgchvgs.streamlit.app/", "Red_Neuro")
 with col3:
-    render_app("Detector Iteractiva Por Rangos de Edad", "Identificar_Edades.jpg", "Muestra las edades de una persona cuando iteractua con el sistema.", "https://introlpagelc.streamlit.app/", "Edad")
+    render_app("Detector Iteractiva Por Rangos de Edad", "Identificar_Edades.jpg", "Al seleccionar una Edad, el sistema puede activar un proceso.", "https://introlpagelc.streamlit.app/", "Edad")
 with col4:
     render_app("Web Clásica", "Pag_Class.jpg", "Diseño de una Página WEB clásica.", "https://introlpagelc.streamlit.app/", "Página")
 with col5:
